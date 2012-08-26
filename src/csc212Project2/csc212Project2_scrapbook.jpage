@@ -1,0 +1,12 @@
+Point p = new Point3D(0.0, 0.0, 0.0);
+Point t = new Point3D(0.0, 1.0, 0.0);
+Matrix m = new Matrix3D();
+Matrix n = new Matrix3D();
+System.out.println(p);
+m.initWorkTranslate(t);
+n.initWorkRotx(n.degToRad(90.0));
+m.multiply(n);
+m.multiply(p);
+System.out.println(m);
+System.out.println(n);
+System.out.println(p);
