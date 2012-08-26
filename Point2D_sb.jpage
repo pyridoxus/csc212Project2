@@ -1,0 +1,2 @@
+Point2D p = new Point2D();
+System.out.println(p);
